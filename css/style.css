@@ -1,0 +1,201 @@
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext ");
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	background-color: #333;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	color: #fff;
+	padding: 50px;
+	font-family: 'Gilroy' ;
+}
+/* ------------------------------ */
+
+.span {
+	margin: 0px 0px 30px 0px;
+}
+.span span{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 0px auto 10px auto;
+	max-width: 300px;
+	border: 1px solid #fff;
+	text-align: center;
+	font-weight: 800;
+	padding: 10px;
+	background-color: crimson;
+}
+
+.span span:hover {
+	background-color: #fff;
+	color: crimson;
+	border-radius: 30px;
+}
+
+.box {
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+.box__one {
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+	color: #000;
+	padding: 15px;
+}
+.box__two {
+	width: 200px;
+	height: 200px;
+	background-color: grey;
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+	padding: 15px;
+}
+.box__three {
+	width: 200px;
+	height: 200px;
+	background-color: #000;
+	display: inline-block;
+	padding: 15px;
+}
+.link {
+	text-align: center;
+}
+.link a {
+	border-radius: 25px;
+	padding: 10px 30px 10px 30px;
+	background-color: crimson;
+	vertical-align: bottom;
+	display: inline-block;
+	font-size: 18px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px auto 30px auto;
+	font-weight: 800;
+}
+.link a:hover {
+	background-color: #fff;
+	color: crimson;
+	font-weight: 800;
+}
+.paragraph {
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+
+.paragraph p{
+	display: inline-block;
+	width: 100px;
+	margin: 0px 30px 0px 0px;
+	padding: 10px;
+	background-color: grey;
+}
+
+.content {
+	margin: 0px 0px 30px 0px;
+}
+.content__one {
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+	margin: 0px auto 0px auto;
+	color: #000;
+	padding: 15px;
+}
+.content__two {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(0, 0, 0, 0.5);
+	margin: -80px auto 0px auto;
+	color: #fff;
+	padding: 30px;
+}
+
+.vertical {
+	margin: 0px 0px 130px 0px;
+}
+.vertical span {
+	display: block;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px;
+}
